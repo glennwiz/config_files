@@ -213,7 +213,7 @@ keybindings:
   # Disables window management and all other keybindings until alt+shift+p
   # is pressed again.
   - commands: ['wm-toggle-pause']
-    bindings: ['alt+shift+p']
+    bindings: ['alt+shift+p', 'win+p']
 
   # Change tiling direction. This determines where new tiling windows will
   # be inserted.
@@ -261,6 +261,9 @@ keybindings:
   # Terminal and Git Bash respectively.
   - commands: ['shell-exec wt']
     bindings: ['alt+enter', 'alt+1', 'win+enter']
+
+  - commands: ['shell-exec chrome']
+    bindings: ['win+b']
 
   # Focus the next/previous active workspace defined in `workspaces` config.
   - commands: ['focus --next-active-workspace']
